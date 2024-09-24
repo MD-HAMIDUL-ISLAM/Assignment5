@@ -23,16 +23,16 @@
 <body class="font-lexend">
     <header class="sticky top-0">
         <nav class="bg-[#F9F7F3]">
-            <div class=" w-4/5 flex justify-between mx-auto mb-20 p-8">
-                <button id="btn-home" class="bg-green-400 font-semibold text-xl px-8 py-3 rounded-lg">Home</button>
+            <div class=" w-4/5 flex justify-between mx-auto mb-8 sm:mb-20 py-6 sm:p-8 ">
+                <button id="btn-home" class="bg-green-400 font-semibold text-sm sm:text-xl h-fit px-4 py-2 sm:px-8  sm:py-3 rounded-md  sm:rounded-lg ">Home</button>
                 <div class="flex items-center gap-x-3">
                     <img src="assets/logo.png" alt="donation logo">
-                    <h3 class="font-semibold text-xl">Donate Bangladesh</h3>
+                    <h3 class="font-semibold text-xl hidden sm:block">Donate Bangladesh</h3>
                 </div>
-                <div class="flex items-center gap-x-3">
+                <div class="flex items-center gap-x-1 sm:gap-x-3">
                     <img src="assets/coin.png" alt="">
-                    <span id="my-balance" class="font-semibold text-xl">5500</span>
-                    <span class="font-semibold text-xl">BDT</span>
+                    <span id="my-balance" class="font-semibold text-sm sm:text-xl">5500</span>
+                    <span class="font-semibold text-sm sm:text-xl">BDT</span>
 
                 </div>
             </div>
@@ -42,30 +42,52 @@
     <main class="w-4/5 mx-auto">
         <div class="collapse collapse-arrow bg-base-200 mt-6 mb-2">
             <input type="radio" name="my-accordion-2" checked="checked" />
-            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-title text-xl font-medium">1. What is Document Object Model(DOM)?
+            </div>
             <div class="collapse-content">
-                <p>hello</p>
+                <p class="text-justify">The Document Object Model (DOM) is a programming interface for web documents. It represents the page
+                    so that programs can change the document structure, style, and content. The DOM represents the
+                    document as nodes and objects; that way, programming languages can interact with the page.</p>
             </div>
         </div>
         <div class="collapse collapse-arrow bg-base-200 mb-2">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-title text-xl font-medium">2. How do you select an element from the DOM?</div>
             <div class="collapse-content">
-                <p>hello</p>
+                <p class="text-justify">
+                    There are many ways to select an element from the DOM. Several are as bellows. <br>
+                    1. By Id <br>
+                    2. By tag Name <br>
+                    3. By Class Name <br>
+                    4. by CSS selectors
+                </p>
             </div>
         </div>
         <div class="collapse collapse-arrow bg-base-200 mb-2">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-title text-xl font-medium">3. What is event delegation in the context of the DOM and
+                why is it useful?</div>
             <div class="collapse-content">
-                <p>hello</p>
+                <p class="text-justify">
+                    Event delegation is a technique in the DOM where instead of attaching event listeners to multiple
+                    child elements, you attach a single event listener to a parent element. <br> <br>
+
+                    Usefulness: <br>
+                    1. Fewer Event Listener: Event Delegation is a useful pattern that allows you to write cleaner code,
+                    and create fewer event listeners with similar logic. <br>
+                    2. Dynamic Content: It works well with elements that are added dynamically (after the page loads),
+                    because the parent will still catch events from newly added children.
+                </p>
             </div>
         </div>
         <div class="collapse collapse-arrow bg-base-200 mb-2">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+            <div class="collapse-title text-xl font-medium">4. How do you manipulate elements attributes and styles
+                using DOM?
+
+            </div>
             <div class="collapse-content">
-                <p>hello</p>
+                <p>Manipulation to elements attributes and styles using DOM are done by Java Script.</p>
             </div>
         </div>
     </main>
