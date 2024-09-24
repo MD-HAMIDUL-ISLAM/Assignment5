@@ -10,3 +10,10 @@ function getTextValueById(id){
     const initialDonationInNumber = parseFloat(initialDonation);
     return initialDonationInNumber;
 }
+
+function getSectionById(id){
+    document.getElementById('donation-section').classList.add('hidden');
+    document.getElementById('history-section').classList.add('hidden');
+
+    document.getElementById(id).classList.remove('hidden');
+}
