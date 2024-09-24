@@ -76,8 +76,10 @@ document.getElementById('btn-qm').addEventListener('click', function (event) {
 // History Section Starts Here.
 document.getElementById('btn-donation').addEventListener('click', function () {
     getSectionById('donation-section');
+    getButtonBgByID('btn-donation');
 })
 document.getElementById('btn-history').addEventListener('click', function () {
     getSectionById('history-section');
+    getButtonBgByID('btn-history');
 })
 // History Section Ends Here.

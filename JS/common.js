@@ -17,3 +17,10 @@ function getSectionById(id){
 
     document.getElementById(id).classList.remove('hidden');
 }
+
+function getButtonBgByID(id){
+
+    document.getElementById('btn-donation').classList.remove('bg-green-400')
+    document.getElementById('btn-history').classList.remove('bg-green-400')
+    document.getElementById(id).classList.add('bg-green-400')
+}
