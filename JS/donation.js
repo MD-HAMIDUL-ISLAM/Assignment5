@@ -34,6 +34,10 @@ document.getElementById('btn-noakhali').addEventListener('click', function (even
         wrapperDiv.appendChild(time);
         document.getElementById('history-container').appendChild(wrapperDiv);
 
+
+        const modal = document.getElementById('congrats-modal');
+        modal.showModal();
+
     }
 
 
