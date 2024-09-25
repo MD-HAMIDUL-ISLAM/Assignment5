@@ -4,7 +4,7 @@ document.getElementById('btn-noakhali').addEventListener('click', function (even
 
     const donationAddedNoakhali = getInputValueById('donate-naokhali-input');
     if (isNaN(donationAddedNoakhali) || donationAddedNoakhali <= 0 ) {
-        alert('Please input a number')
+        alert('Please input a positive number')
         return
     }
     const initialAmountNoakhali = getTextValueById('initial-donation-noakhali');
@@ -49,7 +49,7 @@ document.getElementById('btn-feni').addEventListener('click', function (event) {
 
     const donationAddedFeni = getInputValueById('donate-feni-input');
     if (isNaN(donationAddedFeni) || donationAddedFeni <= 0) {
-        alert('Please input a number')
+        alert('Please input a positive number')
         return
     }
     const initialAmountFeni = getTextValueById('initial-donation-feni');
@@ -95,7 +95,7 @@ document.getElementById('btn-qm').addEventListener('click', function (event) {
 
     const donationAddedQm = getInputValueById('donate-qm-input');
     if (isNaN(donationAddedQm) || donationAddedQm <= 0) {
-        alert('Please input a number')
+        alert('Please input a positive number')
         return
     }
     const initialAmountQm = getTextValueById('initial-donation-qm');
