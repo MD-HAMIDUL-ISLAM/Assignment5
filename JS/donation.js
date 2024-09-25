@@ -3,7 +3,7 @@ document.getElementById('btn-noakhali').addEventListener('click', function (even
     event.preventDefault();
 
     const donationAddedNoakhali = getInputValueById('donate-naokhali-input');
-    if (isNaN(donationAddedNoakhali)) {
+    if (isNaN(donationAddedNoakhali) || donationAddedNoakhali <= 0 ) {
         alert('Please input a number')
         return
     }
@@ -48,7 +48,7 @@ document.getElementById('btn-feni').addEventListener('click', function (event) {
     event.preventDefault();
 
     const donationAddedFeni = getInputValueById('donate-feni-input');
-    if (isNaN(donationAddedFeni)) {
+    if (isNaN(donationAddedFeni) || donationAddedFeni <= 0) {
         alert('Please input a number')
         return
     }
@@ -94,7 +94,7 @@ document.getElementById('btn-qm').addEventListener('click', function (event) {
     event.preventDefault();
 
     const donationAddedQm = getInputValueById('donate-qm-input');
-    if (isNaN(donationAddedQm)) {
+    if (isNaN(donationAddedQm) || donationAddedQm <= 0) {
         alert('Please input a number')
         return
     }
